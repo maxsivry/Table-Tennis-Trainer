@@ -1,0 +1,253 @@
+:root {
+    --main: rgba(5, 48, 52, 0.8);
+    --second: rgba(110, 54, 233, 0.8);
+    --nav: rgba(246, 42, 27, 0.8);
+    --text: rgb(255, 255, 255);
+    --title: rgb(208, 170, 34); 
+}
+* {
+    margin: 1%;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p,
+main,
+article,
+section,
+aside,
+h1,
+h2,
+h3,
+nav {
+  padding: 2%;
+}
+nav {
+  border-bottom: medium solid var(--main);
+  padding: 1% 0;
+  text-align: center;
+  border: thin solid yellow;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+nav a{
+  display: inline-block;
+  width: 19%;
+  padding: 10px 20px;
+}
+
+html {
+    background-image: url(../images/background.jpg);
+    background-color: var(--main);
+    color: var(--text);
+}
+body{
+    width: 90%;
+    margin: 1% auto;
+}
+/* 
+For live stream */
+.title-and-stream {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+}
+.columns p {
+  color:rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+.columns h3 {
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+
+
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+
+header h1,
+header h2 {
+    color: var(--second);
+    text-transform: uppercase;
+    background-color: var(--second);
+    color: var(--title);
+}
+
+section {
+    background-color: var(--main);
+    border-bottom: medium solid var(--second);
+    padding: 1% 0;
+    text-align: left;
+    text-decoration-color: var(--text);
+}
+main h1 {
+    background-color: var(--second);
+    padding: 5%;
+    text-align: center;
+    margin: 5em;
+
+}
+
+footer {
+    background-color: var(--second-bg-color);
+    border-bottom: medium solid var(--main);
+    padding: 1% 0;
+    text-align: center;
+
+}
+
+figure{
+    float: right; 
+    text-align: center; 
+    width: 20%;    
+}
+
+img{
+    max-width: 100%;
+}
+
+a:hover{
+    background-color: var(--second-bg-color);
+} 
+
+.rounded {
+    border-radius: 2%;
+}
+
+.go-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.go-left {
+    float: left;
+    margin-right: 1em;
+}
+
+nav a:link{
+    background-color: #fff;
+    color:#009;
+    text-decoration: none;
+}
+
+form {
+    background-color: var(--second-bg-color);
+    clear: both;
+    max-width: 30em;
+    margin: auto;
+    padding: 1%;
+}
+
+form p {
+    text-indent: 0;
+}
+
+fieldset {
+    padding: 1%;
+}
+
+legend {
+    margin-top: 1%;
+}
+/* Code from W3 schools css   */
+.slidecontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #e9500e;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    display: block;
+    margin: auto;
+  }
+
+  .button:hover {background-color: #e03711}
+
+.button:active {
+  background-color: #e35711;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* Code from W3 schools css */
