@@ -6,3 +6,8 @@ The website runs on FLASK server, and uses packages for raspberryPi including mo
 
 Video demonstration of the robot:
 https://www.youtube.com/watch?v=g7sCdBtLnO8&feature=youtu.be
+
+
+**NOTE THE WEBSITE IS NOW LONGER HOSTED**
+
+however, you may still host locally if you'd like :)
